@@ -1,0 +1,8 @@
+customtkinter
+tkcolorpicker
+hidapi
+pyaudiowpatch
+pynput
+numpy
+pillow
+pystray
