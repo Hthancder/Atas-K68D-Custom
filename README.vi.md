@@ -56,7 +56,27 @@ Cấu hình khởi động, kiểm tra trạng thái kết nối USB và chuyể
 
 ---
 
-## 🚀 Hướng Dẫn Cài Đặt
+## 🚀 Hướng Dẫn Nhanh (Cho Mọi Người)
+
+### ⭐ **Lựa Chọn Dễ Nhất: Tải Bản Phát Hành Có Sẵn**
+
+Cách đơn giản nhất để bắt đầu là tải bản thực thi được biên dịch sẵn từ trang [Releases](https://github.com/Hthancder/Atas-K68D-Custom/releases) của chúng tôi:
+
+1. **Truy cập [Releases](https://github.com/Hthancder/Atas-K68D-Custom/releases)** và tìm phiên bản mới nhất.
+2. **Tải file phù hợp với hệ điều hành của bạn**:
+   - **Windows**: `Atas-K68D-Custom.exe` hoặc file `.zip`
+   - **macOS/Linux**: Kiểm tra trang Releases để lấy phiên bản phù hợp
+3. **Chạy file đã tải** - không cần cài đặt gì! Chỉ cần bấm đôi chuột vào file.
+4. **Kết nối bàn phím của bạn** thông qua USB - ứng dụng sẽ tự động nhận diện nó.
+5. **Bắt đầu tùy chỉnh** hiệu ứng LED bàn phím! 🎨
+
+> **Không cần biết lập trình!** Phương pháp này là hoàn hảo cho những ai chỉ muốn sử dụng ứng dụng mà không cần chỉnh sửa mã.
+
+---
+
+## 💻 Hướng Dẫn Cài Đặt (Cho Các Nhà Phát Triển)
+
+Nếu bạn muốn sửa đổi mã, đóng góp hoặc chạy từ mã nguồn, hãy làm theo các hướng dẫn này:
 
 ### Yêu cầu hệ thống
 - Đã cài đặt **Python 3.8+**.
@@ -79,7 +99,7 @@ Khởi chạy ứng dụng bằng lệnh:
 ```bash
 python main.py
 ```
-*(Mẹo: Trên Windows, bạn có thể đổi tên `main.py` thành `main.pyw` hoặc chạy bằng `pythonw` để ẩn cửa sổ console terminal).*
+*(Mẹo: Trên Windows, bạn có thể đổi tên `main.py` thành `main.pyw` hoặc chạy bằng `pythonw` để ẩn cửa sổ console terminal).*  
 
 ---
 
