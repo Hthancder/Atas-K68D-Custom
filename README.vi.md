@@ -65,7 +65,7 @@ Cách đơn giản nhất để bắt đầu là tải bản thực thi được
 1. **Truy cập [Releases](https://github.com/Hthancder/Atas-K68D-Custom/releases)** và tìm phiên bản mới nhất.
 2. **Tải file phù hợp với hệ điều hành của bạn**:
    - **Windows**: `Atas-K68D-Custom.exe` hoặc file `.zip`
-   - **macOS/Linux**: Kiểm tra trang Releases để lấy phiên bản phù hợp
+   - **macOS/Linux**: đang phát triển, mong muốn sự đóng góp và pull request !
 3. **Chạy file đã tải** - không cần cài đặt gì! Chỉ cần bấm đôi chuột vào file.
 4. **Kết nối bàn phím của bạn** thông qua USB - ứng dụng sẽ tự động nhận diện nó.
 5. **Bắt đầu tùy chỉnh** hiệu ứng LED bàn phím! 🎨
