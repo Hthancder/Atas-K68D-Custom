@@ -56,7 +56,27 @@ Configure startup behaviors, check USB connection status, and switch interface l
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Quick Start (For Everyone)
+
+### ⭐ **Easiest Option: Download Pre-built Release**
+
+The simplest way to get started is to download the pre-built executable from our [Releases page](https://github.com/Hthancder/Atas-K68D-Custom/releases):
+
+1. **Go to [Releases](https://github.com/Hthancder/Atas-K68D-Custom/releases)** and find the latest release.
+2. **Download the appropriate file for your operating system**:
+   - **Windows**: `Atas-K68D-Custom.exe` or `.zip` file
+   - **macOS/Linux**: Check the releases page for your platform
+3. **Run the downloaded file** - no installation needed! Just double-click and go.
+4. **Connect your keyboard** via USB - the app will automatically detect it.
+5. **Start customizing** your keyboard lighting! 🎨
+
+> **No coding knowledge required!** This option is perfect for users who just want to use the application.
+
+---
+
+## 💻 Installation & Setup (For Developers)
+
+If you want to modify the code, contribute, or run from source, follow these instructions:
 
 ### Prerequisites
 - **Python 3.8+** installed on your system.
