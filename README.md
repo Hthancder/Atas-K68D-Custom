@@ -65,7 +65,7 @@ The simplest way to get started is to download the pre-built executable from our
 1. **Go to [Releases](https://github.com/Hthancder/Atas-K68D-Custom/releases)** and find the latest release.
 2. **Download the appropriate file for your operating system**:
    - **Windows**: `Atas-K68D-Custom.exe` or `.zip` file
-   - **macOS/Linux**: Check the releases page for your platform
+   - **macOS/Linux**: in developing
 3. **Run the downloaded file** - no installation needed! Just double-click and go.
 4. **Connect your keyboard** via USB - the app will automatically detect it.
 5. **Start customizing** your keyboard lighting! 🎨
