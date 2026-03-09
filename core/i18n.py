@@ -2,6 +2,8 @@ import os
 import json
 import glob
 
+from core.utils import get_base_dir
+
 class I18n:
     def __init__(self, settings_file_path):
         self.settings_file = settings_file_path
@@ -10,7 +12,7 @@ class I18n:
         self.available_langs = {} # { "vi": {"name": "Tiếng Việt", "author": "System"} }
         
         # Thư mục chứa các file ngôn ngữ (ngang hàng với core/)
-        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+        base_dir = get_base_dir()
         self.lang_dir = os.path.join(base_dir, 'languages')
         
         self.load_external_languages()

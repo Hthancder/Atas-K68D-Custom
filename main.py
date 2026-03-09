@@ -12,8 +12,9 @@ if sys.stdout is None:
 if sys.stderr is None:
     sys.stderr = DummyWriter()
 
-# Đảm bảo có thể import các module bên trong thư mục
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+from core.utils import get_base_dir
+# Đảm bảo có thể import các module bên trong thư mục (chỉ cần thiết khi chạy từ mã nguồn)
+sys.path.insert(0, get_base_dir())
 
 from gui.app import KBLightStudioApp
 from core.usb_driver import USBDriver
@@ -25,7 +26,7 @@ def main():
     target_pid = 0x000A
     
     # Đọc cấu hình VID/PID từ file
-    settings_path = os.path.join(os.path.dirname(__file__), "settings.json")
+    settings_path = os.path.join(get_base_dir(), "settings.json")
     try:
         if os.path.exists(settings_path):
             with open(settings_path, 'r') as f:

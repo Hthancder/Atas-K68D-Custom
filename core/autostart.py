@@ -7,6 +7,8 @@ import subprocess
 # Registry Path
 REG_PATH = r"Software\Microsoft\Windows\CurrentVersion\Run"
 
+from core.utils import get_base_dir
+
 def get_executable_path():
     """Lấy đường dẫn đầy đủ đến file chạy (dù là .exe hay script python)"""
     # Nếu chạy bằng file .exe đã build (PyInstaller / auto-py-to-exe)
@@ -14,7 +16,7 @@ def get_executable_path():
         return f'"{sys.executable}" --minimized'
 
     # Nếu chạy bằng script python
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    base_dir = get_base_dir()
     main_script = os.path.join(base_dir, 'main.py')
 
     python_exe = sys.executable
@@ -54,7 +56,7 @@ def add_to_startup_folder(app_name="KBLightStudio"):
     startup_dir = get_startup_folder_path()
     shortcut_path = os.path.join(startup_dir, f"{app_name}.lnk")
 
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    base_dir = get_base_dir()
 
     # Nếu là file .exe (frozen)
     if getattr(sys, 'frozen', False):

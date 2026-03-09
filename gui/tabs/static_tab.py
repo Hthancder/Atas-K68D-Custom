@@ -5,10 +5,11 @@ import os
 from gui.tabs.base_tab import BaseTab
 from gui.tooltip import ToolTip
 from core.protocol import MODES
+from core.utils import get_base_dir
 
 # --- Configuration Directory Setup ---
-# Đường dẫn gốc là thư mục KBLightStudio (chứa main.py)
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+# Đường dẫn gốc là thư mục Atas-K68D-Custom (chứa main.py)
+BASE_DIR = get_base_dir()
 SETTINGS_FILE = os.path.join(BASE_DIR, "settings.json")
 
 def get_config_file_path():

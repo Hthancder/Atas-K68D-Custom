@@ -7,9 +7,10 @@ from gui.tabs.base_tab import BaseTab
 from gui.tooltip import ToolTip
 from core.protocol import MODES
 from effects.audio_visualizer import AudioVisualizer
+from core.utils import get_base_dir
 
 # --- Configuration Directory Setup ---
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+BASE_DIR = get_base_dir()
 SETTINGS_FILE = os.path.join(BASE_DIR, "settings.json")
 
 def get_audio_config_path():

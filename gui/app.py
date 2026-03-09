@@ -13,11 +13,12 @@ from gui.tabs.console_tab import ConsoleTab
 from gui.tooltip import ToolTip
 from gui.notification import ToastNotification
 from core.i18n import I18n
+from core.utils import get_base_dir, get_resource_dir
 
 ctk.set_appearance_mode("Dark")
 ctk.set_default_color_theme("blue")
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+BASE_DIR = get_base_dir()
 SETTINGS_FILE = os.path.join(BASE_DIR, "settings.json")
 
 class KBLightStudioApp(ctk.CTk):
@@ -30,7 +31,7 @@ class KBLightStudioApp(ctk.CTk):
         self.geometry("900x600")
         
         # Thiết lập Icon cho cửa sổ app
-        icon_path = os.path.join(os.path.dirname(__file__), "trayico", "K68.ico")
+        icon_path = os.path.join(get_resource_dir(), "gui", "trayico", "K68.ico")
         try:
             self.iconbitmap(icon_path)
         except Exception as e:
@@ -53,7 +54,7 @@ class KBLightStudioApp(ctk.CTk):
         self.sidebar_frame.grid_rowconfigure(6, weight=1) # Đẩy Settings xuống dưới
 
         # Thêm Banner trang trí vào Sidebar
-        banner_path = os.path.join(os.path.dirname(__file__), "assets", "BG.png")
+        banner_path = os.path.join(get_resource_dir(), "gui", "assets", "BG.png")
         try:
             if os.path.exists(banner_path):
                 # Tạo banner với chiều rộng bằng sidebar, chiều cao tự canh chỉnh cho đẹp
