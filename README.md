@@ -36,6 +36,25 @@ Thank you for your support! ❤️
 - **📥 Dynamic Language Module**: Easily add your own native language by simply dropping a `.json` file into the `languages/` folder!
 
 ---
+## 🎥 Real-time Video Demo
+
+See Atas-K68D-Custom in action with real-time reactive Audio Visualizer effects:
+
+<table align="center">
+  <tr>
+    <td align="center" colspan="2"><b>🎵 Audio Visualizer</b></td>
+  </tr>
+  <tr>
+    <td>
+      <video src="./DOCS/example_video/7604113601169.mp4" width="100%" controls autoplay loop muted></video>
+    </td>
+    <td>
+      <video src="./DOCS/example_video/7604113221845.mp4" width="100%" controls autoplay loop muted></video>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## 📸 Screenshots
 
