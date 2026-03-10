@@ -38,21 +38,23 @@ Cảm ơn bạn rất nhiều vì đã ủng hộ! ❤️
 ---
 ## 🎥 Video Demo Thực Tế
 
-Cùng xem Atas-K68D-Custom hoạt động thực tế với hiệu ứng phản hồi âm thanh (Audio Visualizer):
-
-<table align="center">
-  <tr>
-    <td align="center" colspan="2"><b>🎵 Hiệu ứng Nháy Theo Nhạc (Audio Visualizer)</b></td>
-  </tr>
-  <tr>
-    <td>
-      <video src="./DOCS/example_video/7604113601169.mp4" width="100%" controls autoplay loop muted></video>
-    </td>
-    <td>
-      <video src="./DOCS/example_video/7604113221845.mp4" width="100%" controls autoplay loop muted></video>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <p>Cùng xem Atas-K68D-Custom hoạt động thực tế với hiệu ứng phản hồi âm thanh (Audio Visualizer):</p>
+  <table style="width:100%; table-layout:fixed;">
+    <tr>
+      <td align="center">
+        <video src="https://github.com/user-attachments/assets/3c9616fe-9bbe-43e7-b194-34ff91d254a3" controls muted loop autoplay style="max-width:100%; border-radius:10px;"></video>
+      </td>
+      <td align="center">
+        <video src="https://github.com/user-attachments/assets/52398cd5-3b18-4da8-8993-f2a83af3bdfc" controls muted loop autoplay style="max-width:100%; border-radius:10px;"></video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>🎵 Demo 1: Audio Visualizer</b></td>
+      <td align="center"><b>🎵 Demo 2: Audio Visualizer</b></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
