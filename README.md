@@ -44,10 +44,10 @@ Thank you for your support! ❤️
   <table style="width:100%; table-layout:fixed;">
     <tr>
       <td align="center">
-        <video src="DOCS/example_video/7604113601169.mp4" controls muted loop autoplay style="max-width:100%; border-radius:10px;"></video>
+        <video src="https://github.com/user-attachments/assets/3c9616fe-9bbe-43e7-b194-34ff91d254a3" controls muted loop autoplay style="max-width:100%; border-radius:10px;"></video>
       </td>
       <td align="center">
-        <video src="DOCS/example_video/7604113221845.mp4" controls muted loop autoplay style="max-width:100%; border-radius:10px;"></video>
+        <video src="https://github.com/user-attachments/assets/52398cd5-3b18-4da8-8993-f2a83af3bdfc" controls muted loop autoplay style="max-width:100%; border-radius:10px;"></video>
       </td>
     </tr>
     <tr>
